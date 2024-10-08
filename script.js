@@ -1,5 +1,5 @@
 const apiUrl = 'http://www.7timer.info/bin/api.pl';
-const openCageApiKey = '65950b43c14d44ac8fe7f092a8b6bbc8'; 
+const openCageApiKey = ''; 
 
 const taskInput = document.getElementById('new-task');
 const taskList = document.getElementById('task-list');
