@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Слайдер для фона -->
+    <div id="background-slider"></div>
+
+    <div class="container">
+        <!-- Блок 1: Время и дата -->
+        <div id="time-date" class="block">
+            <div id="time"></div>
+            <div id="date"></div>
+        </div>
+
+        <!-- Блок 2: Погода -->
+        <div id="weather-block" class="block">
+            <div id="weather-input" class="flex-container">
+                <input type="text" id="cityInput" placeholder="Введите город">
+                <button onclick="fetchWeatherByCity()">Получить погоду</button>
+            </div>
+            <div id="weatherDisplay">
+                <p>Температура: <span id="temperature">—</span></p>
+                <p>Погода: <span id="weather">—</span></p>
+            </div>
+        </div>
+
+        <!-- Блок 3: Список задач -->
+        <div id="todo" class="block">
+            <input type="text" id="new-task" placeholder="Введите задачу" />
+            <ul id="task-list"></ul>
+            <button id="remove-completed">Удалить выполненные</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
