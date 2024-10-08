@@ -8,7 +8,8 @@
 ```bash
 git clone https://github.com/AlinaTolchenitsyna/Momentum.git
 ```
-2. Запустите файл Momentum.html в браузере.
+2. Вставьте свой OpenCageAPI key в константу openCageApiKey в файле script.js (строка 2).
+3. Откройте файл Momentum.html в браузере.
 
 ### Использование
 **Погода:**
